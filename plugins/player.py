@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By:- 𝗟𝗚𝗰𝗬・𝗔𝗟𝗘𝗫 (@LGcYALEX)",
+        f"Powered By:- ŁGcY・AŁEX (@LGcYALEX)",
         (255, 255, 255),
         font=font,
     )
@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏\n𝑨𝒕 𝑷𝒐𝒔𝒊𝒕𝒊𝒐𝒏» `{}` ...**".format(position),
+            caption="**𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 \n𝑨𝒕 𝑷𝒐𝒔𝒊𝒕𝒊𝒐𝒏» `{}` ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -329,7 +329,7 @@ async def play(_, message: Message):
     return await lel.delete()
     
     
-@Client.on_message(commandpro(["/pause", "pause"]) & other_filters)
+@Client.on_message(commandpro(["/pause", "pause", "m", "/m", "/mute", "mute"]) & other_filters)
 @errors
 @authorized_users_only
 async def pause(_, message: Message):
@@ -340,7 +340,7 @@ async def pause(_, message: Message):
     )
 
 
-@Client.on_message(commandpro(["/resume", "resume"]) & other_filters)
+@Client.on_message(commandpro(["/resume", "resume","r", "/r"]) & other_filters)
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
@@ -352,7 +352,7 @@ async def resume(_, message: Message):
 
 
 
-@Client.on_message(commandpro(["/skip", "/next", "skip", "next"]) & other_filters)
+@Client.on_message(commandpro(["/skip", "/next", "skip", "next", "n", "/n"]) & other_filters)
 @errors
 @authorized_users_only
 async def skip(_, message: Message):
@@ -385,7 +385,7 @@ async def skip(_, message: Message):
    ) 
 
 
-@Client.on_message(commandpro(["/end", "end", "/stop", "stop", "x"]) & other_filters)
+@Client.on_message(commandpro(["/end", "end", "/stop", "stop", "x", "s", "/s"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
