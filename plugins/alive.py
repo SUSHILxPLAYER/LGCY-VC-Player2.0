@@ -33,14 +33,14 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8145f7cfe1766be4ca000.jpg",
-        caption=f"""**I ᴀᴍ 𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏
-ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝙇𝙂𝙘𝙔・𝘼𝙇𝙀𝙓](https://t.me/lgcyalex)**""",
+        photo=f"https://telegra.ph/file/4afd7b71eebcaacb96390.jpg",
+        caption=f"""**I ᴀᴍ 𝙉𝘼𝙑𝙔𝘼 𝘽𝙊𝙏
+ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝙇𝙂𝘾𝙔 𝙉𝘼𝙑𝙔𝘼 𝘿𝙄𝙎𝘾𝙐𝙎](https://t.me/NAVYA_DISCUS)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/LGCY_OFFICIAL")
+                        " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/NAVYA_DISCUS")
                 ]
                 
            ]
@@ -51,29 +51,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "alex", "hi", "Hi", "Hello", "hello"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8145f7cfe1766be4ca000.jpg",
+        photo=f"https://telegra.ph/file/4875ccf6172c69ecbb7c2.mp4",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/LGCY_OFFICIAL")
-                ]
-            ]
-        ),
-    )
-
-
-@Client.on_message(commandpro(["repo", "#repo", "repository", "/repo", "source"]) & filters.group & ~filters.edited)
-async def help(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/8145f7cfe1766be4ca000.jpg",
-        caption=f"""""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "𝙍𝙚𝙥𝙤𝙨𝙞𝙩𝙤𝙧𝙮", url=f"https://t.me/LGCY_OFFICIALYT")
+                        " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/NAVYA_DISCUS")
                 ]
             ]
         ),
