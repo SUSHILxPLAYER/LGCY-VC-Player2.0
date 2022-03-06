@@ -23,7 +23,7 @@
 </h2>
 
 <p align="center">
-<a href="https://dashboard.heroku.com/new?template=https://github.com/LgcyAlex/LGCY-VC-Player2.0"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
+<a href="https://dashboard.heroku.com/new?template=https://github.com/SUSHILxPLAYER/LGCY-VC-Player2.0"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
 
 
 
@@ -31,7 +31,7 @@
 
 
 # Special Thanks
-- [Sunil](https://t.me/Sushil8xop)
+- [Sunil](https://t.me/LGCYALEX)
 - [Group](https://t.me/Clan8Xofficial)
 
 
