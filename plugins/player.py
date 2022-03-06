@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By:- ŁGcY・AŁEX (@LGcYALEX)",
+        f"Powered By:- LGCY NAVYA DISCUS (@NAVYA_DISCUS)",
         (255, 255, 255),
         font=font,
     )
@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @LGcYALEX** ")
+                        f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @NAVYA_DISCUS** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @LGcYALEX**")
+            f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @NAVYA_DISCUS**")
         return
     
     audio = (
@@ -174,7 +174,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/LGCY_OFFICIAL")
+                            url=f"https://t.me/NAVYA_DISCUS")
 
                 ]
             ]
@@ -213,7 +213,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/LGCY_OFFICIAL")
+                            url=f"https://t.me/NAVYA_DISCUS")
 
                 ]
             ]
@@ -229,7 +229,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/LGCY_OFFICIAL")
+                            url=f"https://t.me/NAVYA_DISCUS")
 
                 ]
             ]
@@ -283,7 +283,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/LGCY_OFFICIAL")
+                            url=f"https://t.me/NAVYA_DISCUS")
 
                 ]
             ]
@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 \n𝑨𝒕 𝑷𝒐𝒔𝒊𝒕𝒊𝒐𝒏» `{}` ...**".format(position),
+            caption="**𝑨𝒕 𝑷𝒐𝒔𝒊𝒕𝒊𝒐𝒏» `{}` ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾  𝑵𝒐𝒘\n𝑷𝒍𝒂𝒚𝒊𝒏𝒈.....**".format(),
+            caption="**𝑷𝒍𝒂𝒚𝒊𝒏𝒈.....**".format(),
            )
 
     os.remove("final.png")
@@ -336,7 +336,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/ca9159bc8ac22a424931a.jpg", 
-                             caption="**𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 𝑵𝒐𝒘 \n▶️ 𝑷𝒂𝒖𝒔𝒆𝒅....**"
+                             caption="**▶️ 𝑷𝒂𝒖𝒔𝒆𝒅....**"
     )
 
 
@@ -347,7 +347,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/cfb6461b3e0499254a042.jpg", 
-                             caption="**𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 𝑵𝒐𝒘\n⏸ 𝑷𝒍𝒂𝒚𝒊𝒏𝒈.....**"
+                             caption="**⏸ 𝑷𝒍𝒂𝒚𝒊𝒏𝒈.....**"
     )
 
 
@@ -362,7 +362,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 𝑵𝒐𝒘 \n𝑵𝒐𝒕𝒉𝒊𝒏𝒈 𝑷𝒍𝒂𝒚𝒊𝒏𝒈**")
+        await message.reply_text("**𝑵𝒐𝒕𝒉𝒊𝒏𝒈 𝑷𝒍𝒂𝒚𝒊𝒏𝒈**")
     else:
         queues.task_done(chat_id)
         
@@ -381,7 +381,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/297ba913f21615bfb6692.jpg", 
-                             caption=f'**𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 𝑵𝒐𝒘\n⏩ 𝑺𝒌𝒊𝒑𝒑𝒆𝒅.....**'
+                             caption=f'**⏩ 𝑺𝒌𝒊𝒑𝒑𝒆𝒅.....**'
    ) 
 
 
@@ -397,7 +397,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/d8f8fc1de9110b93ca94c.jpg", 
-                             caption="**𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 𝑵𝒐𝒘\n 𝑬𝒏𝒅𝒆𝒅....**"
+                             caption="**𝑬𝒏𝒅𝒆𝒅....**"
     )
 
 
@@ -415,5 +415,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/c83b000f004f01897fe18.png",
-                              caption="**𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 𝑵𝒐𝒘\n 𝑹𝒆𝒍𝒐𝒂𝒅𝒆𝒅...**"
+                              caption="**𝑹𝒆𝒍𝒐𝒂𝒅𝒆𝒅...**"
     )
